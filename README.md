@@ -1,6 +1,10 @@
-> # 保姆级教程：Windows Git 安装全流程
+> # 保姆级教程：Windows Git 安装全流程及注意事项
 ## 第一步：下载安装包
-### 1.下载地址
+官网下载对应版本安装包
+<details>
+<summary> 展开 </summary>   
+  
+###  1.下载地址
   - 官方网站：[git-scm.com/download/win](https://git-scm.com/install/windows)
    ![官方网站](./img/官方网站.png)
 -  下载方式：推荐直接点击页面上的 "Click here to download" 或者 "Git for Windows/x64 Setup" 下载独立的 .exe 安装程序。
@@ -10,7 +14,14 @@
   - 少数轻薄本（高通骁龙芯片）或 Mac 虚拟机：请下载 ARM64 版本。
   ![版本选择](./img/系统信息.png)
     - 如果不确定，按 Win 键搜索“关于你的电脑”，查看“系统类型”。
+
+</details>
+  
 ## 第二步：逐步安装
+14步安装详细解说
+<details>
+<summary> 展开 </summary>   
+  
 ### 1、初始界面
   ![初始界面](./img/初始界面.png)
   - 安装初始界面。
@@ -267,10 +278,14 @@
      - 含义：符号链接有点像 Windows 的“快捷方式”，但在编程中更高级
      - 坑点：在 Windows 上开启这个功能比较麻烦，通常需要管理员权限才能创建链接，而且很多 Windows 软件对它的支持并不完美
      - 建议：除非非常确定Python 项目里用到了跨平台的符号链接，否则不要勾选，省得以后报一堆“权限不足”的错误
-
+</details>
        
-#  ❗关键步骤总结 
+##  ❗关键步骤总结 
  双击安装包运行，大部分步骤可以直接点 "Next"，但以下 4 个关键节点 请按建议修改，否则后续使用会很麻烦。
+
+ <details>
+<summary> 展开 </summary>  
+   
 ##### 关键点 1：选择编辑器 (Choosing the default editor)
   - 默认选项：Vim (难度极高，新手噩梦)。
 
@@ -319,8 +334,14 @@
 - 📖7.Extra Options：勾选 Enable file system caching（开启缓存，提升速度）
 - 📖8.最后点击 Install，等待安装完成
 
+</details>
+
 ## 第三步：验证安装
 安装完成后，需要确认 Git 是否已经准备好工作。
+
+ <details>
+<summary> 展开 </summary>  
+   
 #### 1.按下 Win + R，输入 cmd 并回车。
 #### 2.在黑窗口中输入以下命令并回车：
 ```bash
@@ -331,6 +352,8 @@
 git version 2.52.0.windows.1 
 ```   
   ![安装成功](./img/安装成功.png)
+</details>
+  
 ## 🥚最后的彩蛋：安装后的第一件事
  - 很多新手安装完后直接去克隆代码，结果报错。这是因为还没告诉 Git “你是谁”。
  - 请在命令行（CMD 或 PowerShell）中依次输入以下两行代码（把引号里的内容换成你的）：
