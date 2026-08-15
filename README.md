@@ -2,7 +2,7 @@
 ## 1️⃣下载安装包
 官网下载对应版本安装包
 <details>
-<summary> 展开 </summary>   
+<summary> 展开内容 </summary>   
   
 ###  1.下载地址
   - 官方网站：[git-scm.com/download/win](https://git-scm.com/install/windows)
@@ -20,7 +20,7 @@
 ## 2️⃣逐步安装
 14步安装详细解说
 <details>
-<summary> 展开 </summary>   
+<summary> 展开内容 </summary>   
   
 ### 1、初始界面
   ![初始界面](./img/初始界面.png)
@@ -284,7 +284,7 @@
  双击安装包运行，大部分步骤可以直接点 "Next"，但以下 4 个关键节点 请按建议修改，否则后续使用会很麻烦。
 
  <details>
-<summary> 展开 </summary>  
+<summary> 展开内容 </summary>  
    
 ##### 关键点 1：选择编辑器 (Choosing the default editor)
   - 默认选项：Vim (难度极高，新手噩梦)。
@@ -340,7 +340,7 @@
 安装完成后，需要确认 Git 是否已经准备好工作。
 
  <details>
-<summary> 展开 </summary>  
+<summary> 展开内容 </summary>  
    
 #### 1.按下 Win + R，输入 cmd 并回车。
 #### 2.在黑窗口中输入以下命令并回车：
@@ -355,9 +355,10 @@ git version 2.52.0.windows.1
 </details>
   
 ## 🥚最后的彩蛋：安装后的第一件事
- - 很多新手安装完后直接去克隆代码，结果报错。这是因为还没告诉 Git “你是谁”。
+  很多新手安装完后直接去克隆代码，结果报错。这是因为还没告诉 Git “你是谁”。
  <details>
-<summary> 展开 </summary>  
+<summary> 展开内容 </summary>  
+   
  - 请在命令行（CMD 或 PowerShell）中依次输入以下两行代码（把引号里的内容换成你的）：
 ```
 # 告诉 Git 你的名字（出现在代码提交记录里）
