@@ -1,5 +1,5 @@
 > # 保姆级教程：Windows Git 安装全流程及注意事项
-## 第一步：下载安装包
+## 1️⃣下载安装包
 官网下载对应版本安装包
 <details>
 <summary> 展开 </summary>   
@@ -17,7 +17,7 @@
 
 </details>
   
-## 第二步：逐步安装
+## 2️⃣逐步安装
 14步安装详细解说
 <details>
 <summary> 展开 </summary>   
@@ -336,7 +336,7 @@
 
 </details>
 
-## 第三步：验证安装
+## 3️⃣验证安装
 安装完成后，需要确认 Git 是否已经准备好工作。
 
  <details>
@@ -356,6 +356,8 @@ git version 2.52.0.windows.1
   
 ## 🥚最后的彩蛋：安装后的第一件事
  - 很多新手安装完后直接去克隆代码，结果报错。这是因为还没告诉 Git “你是谁”。
+ <details>
+<summary> 展开 </summary>  
  - 请在命令行（CMD 或 PowerShell）中依次输入以下两行代码（把引号里的内容换成你的）：
 ```
 # 告诉 Git 你的名字（出现在代码提交记录里）
@@ -364,3 +366,4 @@ git config --global user.name "你的英文昵称"
 git config --global user.email "你的邮箱@example.com"
 ``` 
  - 配置完成！现在可以愉快地开始你的版本控制之旅了
+</details>
